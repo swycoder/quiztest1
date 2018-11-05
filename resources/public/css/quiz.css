@@ -2,13 +2,17 @@
 
 body{
 	font-size: 20px;
-	font-family: 'Work Sans', sans-serif;
+	/* font-family: 'Work Sans', sans-serif; */
+	/* font-family: 'SimSun'; */
+	/* font-family: 'Microsoft YaHei'; */
+  font-family:Arial,'Times New Roman','Microsoft YaHei',SimHei;
 	color: #333;
   font-weight: 300;
   text-align: center;
   background-color: #f8f6f0;
 }
 h1{
+  font-family:'STFangsong', 'Microsoft YaHei',SimHei;
   font-weight: 300;
   margin: 0px;
   padding: 10px;
@@ -38,7 +42,7 @@ button{
 	border-radius: 3px;
 	padding: 20px;
 	cursor: pointer;
-	margin-bottom: 20px;
+	margin: 20px;
 }
 button:hover{
 	background-color: #38a;

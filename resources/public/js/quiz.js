@@ -92,6 +92,7 @@
       }
     });
 
+    console.log("fda");
     // show number of correct answers out of total
     resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
   }
