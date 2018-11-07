@@ -6,8 +6,13 @@
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [compojure "1.1.8"]
                  [http-kit "2.1.16"]                 
-                 ; [org.clojure/java.jdbc "0.7.8"]
-                 ; [mysql/mysql-connector-java "8.0.11"]
+                 [org.clojure/java.jdbc "0.7.8"]
+                 [mysql/mysql-connector-java "8.0.11"]
+                 ; [org.clojure/java.jdbc "0.9.0"]
+                 ; [funcool/clojure.jdbc "0.9.0"]
+                 [com.mchange/c3p0 "0.9.5.2"]  
+
+
                  [ring/ring-defaults "0.3.2"]
                  [ring/ring-core "1.6.3"]
                 ;[ring "1.7.1"]
@@ -16,7 +21,7 @@
                  ;[hiccup "1.0.5"]
                  ;[stencil "0.5.0"]
                  ;[selmer "1.12.2"]
-                 ;[org.clojure/data.json "0.2.6"]
+                 [org.clojure/data.json "0.2.6"]
 
                  ]
   :main quiztest1.core)

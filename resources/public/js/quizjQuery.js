@@ -97,10 +97,34 @@ $(function(){
         alert(not_select + 'not select');
         return;
       }
-      var data = {"question_id":each, "radio_val":$select_radio.val()};
+      // var data = {"question_id":each, "radio_val":$select_radio.val()};
+      var data = $select_radio.val();
       req_data.push(data);
       console.log(req_data);
+
     }
+    $.post('/finish', JSON.stringify(req_data),
+      function(returnedData){
+        console.log(returnedData);
+      }, 'json');
+    // $.ajax({
+      // url: '/finish',
+      // type: 'POST',
+      // contentType : 'application/json',
+      // data: JSON.stringify(req_data),
+      // complete: function (jqXHR, textStatus) {
+        // console.log("complete");
+        // // callback
+      // },
+      // success: function (data, textStatus, jqXHR) {
+        // console.log("success");
+        // // success callback
+      // },
+      // error: function (jqXHR, textStatus, errorThrown) {
+        // console.log("error");
+        // // error callback
+      // }
+    // });
 
   });
 
