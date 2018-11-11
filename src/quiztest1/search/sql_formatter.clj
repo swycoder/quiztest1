@@ -34,8 +34,6 @@
       )
     )
   )
-; (get-from-pos (clojure.string/split (clojure.string/replace "select * from   group where id = 2321;" #" +" " ")) )
-; (replace_sharding_id (clojure.string/split (clojure.string/replace "select * from   group where id = 2321;" #" +" " ")  #" ") 7 9)
 
 (defn get-sharding-sql-by-sharding-id "get sharding" [sql_str sharding_id]
   (println sharding_id)

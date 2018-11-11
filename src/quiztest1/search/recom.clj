@@ -1,10 +1,6 @@
 (ns quiztest1.search.recom
   (:require [compojure.core :refer :all]
-            ; [clojure.java.jdbc :as jdbc]
             [org.httpkit.server :refer [run-server]]
-            ; [ring.middleware.defaults :refer :all]
-            ; [stencil.core :as sen]
-            ; [selmer.parser :refer :all ]
             [quiztest1.search.dbutil :as dbUtil]
             [quiztest1.search.sql_formatter :as sql_format]
             [compojure.route :as route]
@@ -24,10 +20,9 @@
   ; 获得用户的总得分
   ; 去对应的数据库中查找用户
   (def total-score (get-total-score answer_vector))
-  (def sql (sql_format/get-sharding-sql-by-sharding-id "SELECT * FROM mm_user t1 INNER JOIN (SELECT RAND()*10 AS nid) t2 ON t1.id > t2.nid LIMIT 5;" total-score))
+  (def sql (sql_format/get-sharding-sql-by-sharding-id "SELECT * FROM mm_user_options t1 INNER JOIN (SELECT RAND()*10 AS nid) t2 ON t1.id > t2.nid LIMIT 5;" total-score))
   (println sql)
   (println total-score)
   (dbUtil/get-user sql)
   ; (dbUtil/test-get-user )
-
   )
