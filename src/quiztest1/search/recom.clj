@@ -27,7 +27,7 @@
   (def sql (sql_format/get-sharding-sql-by-sharding-id "SELECT * FROM mm_user t1 INNER JOIN (SELECT RAND()*10 AS nid) t2 ON t1.id > t2.nid LIMIT 5;" total-score))
   (println sql)
   (println total-score)
-  ; (dbUtil/get-user sql)
-  (dbUtil/test-get-user )
+  (dbUtil/get-user sql)
+  ; (dbUtil/test-get-user )
 
   )
