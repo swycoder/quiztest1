@@ -28,3 +28,4 @@
   (let [stmt (jdbc/query spec sql)]
     (println "Result: " stmt))
   )
+;(get-user "show tables;")
