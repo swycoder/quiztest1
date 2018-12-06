@@ -55,5 +55,5 @@
   )
 
 (defn -main []
-  (println "start server at port 9000")
-  (run-server myapp {:port 9000}))
+  (println "start server at port 8080")
+  (run-server myapp {:port 8080}))
