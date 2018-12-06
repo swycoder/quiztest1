@@ -1,3 +1,6 @@
+*.idea/*
+.idea/workspace.xml
+*.xml
 /target
 /classes
 /checkouts
@@ -10,5 +13,4 @@ pom.xml.asc
 .hgignore
 .hg/
 tags
-.idea/
 .idea/workspace.xml
