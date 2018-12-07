@@ -7,7 +7,7 @@
 (def spec
   (pool/make-datasource-spec
     {:subprotocol       "mysql"
-     :subname           "//127.0.0.1:3306/mm"
+     :subname           "//localhost:3306/mm"
      :user              "root"
      :password          "root"
      :min-pool-size     1

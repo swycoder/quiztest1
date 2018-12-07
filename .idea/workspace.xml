@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2530035a-13c3-440f-b243-3764083657b8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/quiztest1/common/util/resp_util.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/html/index.html" afterPath="$PROJECT_DIR$/resources/public/html/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/js/main.js" afterPath="$PROJECT_DIR$/resources/public/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/quiztest1/core.clj" afterPath="$PROJECT_DIR$/src/quiztest1/core.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/quiztest1/user/controller/controller.clj" afterPath="$PROJECT_DIR$/src/quiztest1/user/controller/controller.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/quiztest1/db/dbutil.clj" afterPath="$PROJECT_DIR$/src/quiztest1/db/dbutil.clj" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,35 +33,35 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+            <state relative-caret-position="88">
+              <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
               <folding>
-                <marker date="1544172532900" expanded="true" signature="68635:68652" ph="..." />
-                <marker date="1544172532900" expanded="true" signature="68635:68670" ph="..." />
-                <marker date="1544172532900" expanded="true" signature="68635:68683" ph="..." />
-                <marker date="1544172532900" expanded="true" signature="68635:68698" ph="..." />
-                <marker date="1544172532900" expanded="true" signature="68733:70118" ph="..." />
-                <marker date="1544172532900" expanded="true" signature="68746:70103" ph="..." />
-                <marker date="1544172532900" expanded="true" signature="68797:69062" ph="..." />
-                <marker date="1544172532900" expanded="true" signature="68816:69047" ph="..." />
-                <marker date="1544172532900" expanded="true" signature="68849:69027" ph="..." />
-                <marker date="1544172532900" expanded="true" signature="68889:68993" ph="..." />
-                <marker date="1544172532900" expanded="true" signature="68910:68971" ph="..." />
-                <marker date="1544172532900" expanded="true" signature="69105:69431" ph="..." />
-                <marker date="1544172532900" expanded="true" signature="69124:69416" ph="..." />
-                <marker date="1544172532900" expanded="true" signature="69218:69396" ph="..." />
-                <marker date="1544172532900" expanded="true" signature="69258:69362" ph="..." />
-                <marker date="1544172532900" expanded="true" signature="69279:69340" ph="..." />
-                <marker date="1544172532900" expanded="true" signature="69466:69772" ph="..." />
-                <marker date="1544172532900" expanded="true" signature="69485:69757" ph="..." />
-                <marker date="1544172532900" expanded="true" signature="69559:69737" ph="..." />
-                <marker date="1544172532900" expanded="true" signature="69599:69703" ph="..." />
-                <marker date="1544172532900" expanded="true" signature="69620:69681" ph="..." />
-                <marker date="1544172532900" expanded="true" signature="69824:70089" ph="..." />
-                <marker date="1544172532900" expanded="true" signature="69843:70074" ph="..." />
-                <marker date="1544172532900" expanded="true" signature="69876:70054" ph="..." />
-                <marker date="1544172532900" expanded="true" signature="69916:70020" ph="..." />
-                <marker date="1544172532900" expanded="true" signature="69937:69998" ph="..." />
+                <marker date="1544174386535" expanded="true" signature="67766:67783" ph="..." />
+                <marker date="1544174386535" expanded="true" signature="67766:67801" ph="..." />
+                <marker date="1544174386535" expanded="true" signature="67766:67814" ph="..." />
+                <marker date="1544174386535" expanded="true" signature="67766:67829" ph="..." />
+                <marker date="1544174386535" expanded="true" signature="67864:69249" ph="..." />
+                <marker date="1544174386535" expanded="true" signature="67877:69234" ph="..." />
+                <marker date="1544174386535" expanded="true" signature="67928:68193" ph="..." />
+                <marker date="1544174386535" expanded="true" signature="67947:68178" ph="..." />
+                <marker date="1544174386535" expanded="true" signature="67980:68158" ph="..." />
+                <marker date="1544174386535" expanded="true" signature="68020:68124" ph="..." />
+                <marker date="1544174386535" expanded="true" signature="68041:68102" ph="..." />
+                <marker date="1544174386535" expanded="true" signature="68236:68562" ph="..." />
+                <marker date="1544174386535" expanded="true" signature="68255:68547" ph="..." />
+                <marker date="1544174386535" expanded="true" signature="68349:68527" ph="..." />
+                <marker date="1544174386535" expanded="true" signature="68389:68493" ph="..." />
+                <marker date="1544174386535" expanded="true" signature="68410:68471" ph="..." />
+                <marker date="1544174386535" expanded="true" signature="68597:68903" ph="..." />
+                <marker date="1544174386535" expanded="true" signature="68616:68888" ph="..." />
+                <marker date="1544174386535" expanded="true" signature="68690:68868" ph="..." />
+                <marker date="1544174386535" expanded="true" signature="68730:68834" ph="..." />
+                <marker date="1544174386535" expanded="true" signature="68751:68812" ph="..." />
+                <marker date="1544174386535" expanded="true" signature="68955:69220" ph="..." />
+                <marker date="1544174386535" expanded="true" signature="68974:69205" ph="..." />
+                <marker date="1544174386535" expanded="true" signature="69007:69185" ph="..." />
+                <marker date="1544174386535" expanded="true" signature="69047:69151" ph="..." />
+                <marker date="1544174386535" expanded="true" signature="69068:69129" ph="..." />
               </folding>
             </state>
           </provider>
@@ -75,8 +70,8 @@
       <file leaf-file-name="core.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/quiztest1/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="54" column="22" lean-forward="true" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+            <state relative-caret-position="269">
+              <caret line="69" column="21" lean-forward="false" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -157,7 +152,7 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/public/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
+            <state relative-caret-position="157">
               <caret line="35" column="45" lean-forward="false" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
               <folding />
             </state>
@@ -234,7 +229,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controller.clj" pinned="false" current-in-tab="true">
+      <file leaf-file-name="controller.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/quiztest1/user/controller/controller.clj">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
@@ -274,11 +269,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dbutil.clj" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dbutil.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/quiztest1/db/dbutil.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+            <state relative-caret-position="198">
+              <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -336,7 +331,6 @@
         <option value="$PROJECT_DIR$/src/quiztest1/user/service.clj" />
         <option value="$PROJECT_DIR$/src/quiztest1/user/dao/user_dao.clj" />
         <option value="$PROJECT_DIR$/src/quiztest1/search/dbutil.clj" />
-        <option value="$PROJECT_DIR$/src/quiztest1/db/dbutil.clj" />
         <option value="$PROJECT_DIR$/src/quiztest1/search/recom.clj" />
         <option value="$PROJECT_DIR$/src/quiztest1/user/service/service.clj" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
@@ -345,6 +339,7 @@
         <option value="$PROJECT_DIR$/src/quiztest1/common/util/resp_util.clj" />
         <option value="$PROJECT_DIR$/src/quiztest1/core.clj" />
         <option value="$PROJECT_DIR$/src/quiztest1/user/controller/controller.clj" />
+        <option value="$PROJECT_DIR$/src/quiztest1/db/dbutil.clj" />
       </list>
     </option>
   </component>
@@ -1017,14 +1012,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/quiztest1/db/dbutil.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/quiztest1.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1113,14 +1100,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/public/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="35" column="45" lean-forward="false" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/quiztest1/search/recom.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="354">
@@ -1163,18 +1142,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/quiztest1/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="54" column="22" lean-forward="true" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/quiztest1/user/controller/controller.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="58" lean-forward="false" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="35" column="45" lean-forward="false" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/quiztest1/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="69" column="21" lean-forward="false" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/quiztest1/db/dbutil.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
           <folding />
         </state>
       </provider>
