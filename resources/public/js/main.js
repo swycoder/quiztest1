@@ -20,8 +20,20 @@
     /*==================================================================
     [ Validate ]*/
     var input = $('.validate-input .input100');
+    var loginBtn = $('#loginBtn');
+
+    $('#loginBtn').on('click', function(){
+        console.log('loginBtn is clicked')
+
+//        $.get('/login', JSON.stringify(req_data),
+//              function(returnedData){
+//                console.log(returnedData);
+//              }, 'json');
+
+    });
 
     $('.validate-form').on('submit',function(){
+        console.log('valid form is submitting')
         var check = true;
 
         for(var i=0; i<input.length; i++) {
