@@ -8,8 +8,8 @@
   (pool/make-datasource-spec
     {:subprotocol       "mysql"
      :subname           "//localhost:3306/mm"
-     :user              "root"
-     :password          "root"
+     :user              "dev"
+     :password          "dev"
      :min-pool-size     1
      :max-pool-size     3
      :initial-pool-size 2
